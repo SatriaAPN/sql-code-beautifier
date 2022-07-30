@@ -10,5 +10,8 @@ const filteredQuerySyntaxt2 = ["sum", "max", "min"]
 
 const beautifyQuery = (query) => {
 
-  return query;
+}
+
+const replaceMatchCaseIntoUpperCase = (query) => {
+
 }
