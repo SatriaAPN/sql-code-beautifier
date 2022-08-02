@@ -15,5 +15,8 @@ const beautifyQuery = (query) => {
 }
 
 const replaceMatchCaseIntoUpperCase = (query) => {
+  for(let data of filteredQuerySyntaxt) {
+
+  }
 
 }
