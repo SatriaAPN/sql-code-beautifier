@@ -16,6 +16,7 @@ const beautifyQuery = (query) => {
 
 const replaceMatchCaseIntoUpperCase = (query) => {
   for(let data of filteredQuerySyntaxt) {
+    const regex = new RegExp(data, 'gi');
 
   }
 
