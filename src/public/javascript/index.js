@@ -21,4 +21,5 @@ const replaceMatchCaseIntoUpperCase = (query) => {
 
   }
 
+  return query;
 }
