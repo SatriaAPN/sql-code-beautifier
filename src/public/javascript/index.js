@@ -20,6 +20,7 @@ const replaceMatchCaseIntoUpperCase = (query) => {
     query = query.replace(regex, data.toUpperCase());
   }
   for(let data of filteredQuerySyntaxt2) {
+    const regex = new RegExp(data, 'gi');
   }
 
   return query;
