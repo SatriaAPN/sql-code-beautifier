@@ -29,4 +29,5 @@ const replaceMatchCaseIntoUpperCase = (query) => {
 
 const createSpaceInQuery = (query) => {
 
+  return query
 }
