@@ -31,3 +31,7 @@ const createSpaceInQuery = (query) => {
 
   return query
 }
+
+const addSpaceInBetweenSelectANDFrom = (query) => {
+  
+}
