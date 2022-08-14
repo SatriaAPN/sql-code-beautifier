@@ -30,10 +30,14 @@ const replaceMatchCaseIntoUpperCase = (query) => {
 
 const createSpaceInQuery = (query) => {
 
-  return query
+  return subQuery
 }
 
-const addSpaceInBetweenSelectANDFrom = (query) => {
+const checkIfSubQueryEnd = (query, index) => {
+
+}
+
+const addSpaceInBetweenSelectANDFrom = (query, space) => {
   
   return query
 }
