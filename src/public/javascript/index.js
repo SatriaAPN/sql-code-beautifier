@@ -37,6 +37,8 @@ const checkIfSubQueryEnd = (query, index) => {
 
 }
 
+const subQueryEnd = ['left', 'right', 'join', 'where', 'having', 'order'];
+
 const addSpaceInBetweenSelectANDFrom = (query, space) => {
   
   return query
