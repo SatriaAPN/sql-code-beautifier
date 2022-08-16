@@ -35,6 +35,7 @@ const createSpaceInQuery = (query) => {
 
 const checkIfSubQueryEnd = (query, index) => {
 
+  return false;
 }
 
 const subQueryEnd = ['left', 'right', 'join', 'where', 'having', 'order'];
