@@ -29,6 +29,13 @@ const replaceMatchCaseIntoUpperCase = (query) => {
 }
 
 const createSpaceInQuery = (query) => {
+  let index1 = 0;
+  let countOpenParenthesis = 0;
+  let index2 = 0;
+  let countCloseParenthesis = 0;
+  let end = false;
+  let subQuery = [];
+
 
   return subQuery
 }
