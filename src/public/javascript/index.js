@@ -36,6 +36,9 @@ const createSpaceInQuery = (query) => {
   let end = false;
   let subQuery = [];
 
+  for(let i=0; i<query.length; i++) {
+
+  }
 
   return subQuery
 }
