@@ -41,6 +41,12 @@ const createSpaceInQuery = (query) => {
 }
 
 const checkIfSubQueryEnd = (query, index) => {
+  for(let subQuery of subQueryEnd) {
+    console.log(query.substring(index, index + subQuery.length))
+    if(query.substring(index, index + subQuery.length).toLowerCase() === subQuery.toLowerCase()) {
+      return true;
+    }
+  }
 
   return false;
 }
