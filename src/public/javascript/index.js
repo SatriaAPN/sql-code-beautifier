@@ -37,6 +37,8 @@ const createSpaceInQuery = (query) => {
   let subQuery = [];
 
   for(let i=0; i<query.length; i++) {
+    console.log('parenthesis', countOpenParenthesis, countCloseParenthesis);
+    console.log('index', index1, index2);
 
   }
 
