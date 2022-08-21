@@ -40,6 +40,9 @@ const createSpaceInQuery = (query) => {
     console.log('parenthesis', countOpenParenthesis, countCloseParenthesis);
     console.log('index', index1, index2);
 
+    if(query[i] === '(') {
+    }
+
   }
 
   return subQuery
