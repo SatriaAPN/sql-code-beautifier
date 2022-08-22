@@ -41,6 +41,8 @@ const createSpaceInQuery = (query) => {
     console.log('index', index1, index2);
 
     if(query[i] === '(') {
+      if(countOpenParenthesis === 0) index1 = i+1;
+      
     }
 
   }
