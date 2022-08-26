@@ -48,7 +48,10 @@ const createSpaceInQuery = (query) => {
 
     if(query[i] === ')') 
       countCloseParenthesis++; 
-      
+
+    if(countOpenParenthesis > 0 && countOpenParenthesis === countCloseParenthesis) {
+
+    }
   }
 
   return subQuery
