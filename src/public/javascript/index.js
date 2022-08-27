@@ -50,6 +50,7 @@ const createSpaceInQuery = (query) => {
       countCloseParenthesis++; 
 
     if(countOpenParenthesis > 0 && countOpenParenthesis === countCloseParenthesis) {
+      console.log('i', i)
 
     }
   }
