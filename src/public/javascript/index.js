@@ -51,6 +51,7 @@ const createSpaceInQuery = (query) => {
 
     if(countOpenParenthesis > 0 && countOpenParenthesis === countCloseParenthesis) {
       console.log('i', i)
+      if(checkIfSubQueryEnd(query, i))
 
     }
   }
