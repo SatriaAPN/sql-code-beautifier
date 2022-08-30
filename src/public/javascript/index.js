@@ -53,6 +53,9 @@ const createSpaceInQuery = (query) => {
       console.log('i', i)
       if(checkIfSubQueryEnd(query, i))
         index2 = i-1;
+    }
+
+    if(index1 != 0 && index2 != 0) {
 
     }
   }
