@@ -57,6 +57,7 @@ const createSpaceInQuery = (query) => {
 
     if(index1 != 0 && index2 != 0) {
       subQuery.push(query.substring(index1, index2));
+      index1 = 0;
     }
   }
 
