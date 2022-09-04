@@ -60,6 +60,7 @@ const createSpaceInQuery = (query) => {
       index1 = 0;
       index2 = 0;
       countOpenParenthesis = 0;
+      countCloseParenthesis = 0;
     }
   }
 
