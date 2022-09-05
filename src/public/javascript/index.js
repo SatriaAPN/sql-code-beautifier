@@ -62,6 +62,8 @@ const createSpaceInQuery = (query) => {
       countOpenParenthesis = 0;
       countCloseParenthesis = 0;
     }
+
+    if(index1 != 0 && i === query.length - 1)
   }
 
   return subQuery
